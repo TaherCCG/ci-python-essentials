@@ -1,3 +1,5 @@
+#code written by me
+
 num=42
 print(num)
 
