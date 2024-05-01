@@ -1,0 +1,18 @@
+# Basic Math With Arithmetic Operators
+
+print("Operator used: +")
+print(2 + 2)
+print("Operator used: -")
+print(4 - 2)
+print("Operator used: *")
+print(2 * 3)
+print("Operator used: /")
+print(9 / 3)
+print("Operator used: **")
+print(2 ** 3)
+print("Operator used: %")
+print(18 % 7)
+print("Operator used: %")
+print(10900 % 60)
+print("Operator used: //")
+print(18 // 7)
