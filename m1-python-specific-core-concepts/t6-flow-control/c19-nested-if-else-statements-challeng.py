@@ -12,8 +12,8 @@
 admin = True
 update_required = True
 
-if admin == True:
-    if update_required == True:
+if admin:
+    if update_required:
         print("You are authorized to update")
     else:
         print("No update required")
