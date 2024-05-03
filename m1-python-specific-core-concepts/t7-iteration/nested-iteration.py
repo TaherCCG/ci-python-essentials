@@ -1,5 +1,7 @@
 # Nested iteration
 
+# sourcery skip: while-to-for
+# sourcery skip: while-guard-to-condition
 """
 Nested iteration is when you have a loop inside another loop. 
 This is useful when you need to iterate over a sequence of items that are themselves sequences.
@@ -12,6 +14,7 @@ print("Runnable Example 1: Nested iteration")
 i = 2
 while i < 10:
     j = 2
+
     while j <= i/j:
         if not i % j:
             break
