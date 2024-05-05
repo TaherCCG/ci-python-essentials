@@ -18,15 +18,19 @@ They have a specific meaning and purpose within Python and cannot be used for an
 # break      except     in         raise
 
 # You can use the dir() function to get a list of all the reserved keywords in Python.
-
+print(" dir builtins")
 print(dir(__builtins__))
-
+print()
 # You can also use the keyword module to get a list of all the reserved keywords in Python.
 
+
+print("keyword.kwlist")
 import keyword
 
 print(keyword.kwlist)
 
+print()
+print("keyword.iskeyword")
 # You can use the iskeyword() function to check if a string is a reserved keyword in Python.
 
 print(keyword.iskeyword("for")) # True
