@@ -1,0 +1,10 @@
+# What are Input/Output Operations?
+
+
+In this unit, we're going to have a look at file input and output or I/O for short. Data that is taken from the user for example from a keyboard can be written to file. Data in a file can be read and output to the screen.
+
+Most programs store data in memory while they're running. Choosing the correct data structure can make all the difference in the performance of an application. A skilled developer knows how to use and combine smaller data structures into more substantial and more elaborate models in memory. But as great as these models are, anything held in RAM, or Random Access Memory, is volatile. That means that when the program shuts down, either by deliberately exiting or as a result of a crash, then the data is lost.
+
+Also, as data gets more and more elaborate, some programs just can't store all of the information they work with, in the memory at the same time. Now, this is changing. Memory capacities are growing, and the cost is continuing to fall. Still, to be safe, a persistent store of data on a non-volatile hard drive, solid-state drive, flash memory or some other storage device will continue to be a part of computing for the foreseeable future.
+
+In this module, we're going to have a look at how to store data on a disk using files. You'll already be very familiar with files from your operating system, and there are other ways of storing data, for example in a database, but this is beyond the scope of the current lesson. Even that usually just amounts to storing data in files and accessing them in a certain way.
